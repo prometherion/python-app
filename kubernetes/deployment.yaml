@@ -20,5 +20,8 @@ spec:
       containers:
       - image: prometherion/python-app:47a4791
         name: python-app
+        env:
+          - name: MSG
+            value: dario
         resources: {}
 status: {}
