@@ -9,7 +9,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: python-app
+      app: python
   strategy: {}
   template:
     metadata:
