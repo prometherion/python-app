@@ -12,7 +12,7 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: python-app
+    app: python
   type: ClusterIP
 status:
   loadBalancer: {}

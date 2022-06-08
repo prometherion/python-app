@@ -15,7 +15,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: python-app
+        app: python
     spec:
       containers:
       - image: prometherion/python-app:47a4791
